@@ -6,7 +6,6 @@ const app = express();
 
 
 // Настройка handlebars
-
 app.engine('hbs', consolidate.handlebars);
 app.set('view engine', 'hbs');
 app.set('views', path.resolve(__dirname, 'views'));

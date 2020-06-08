@@ -1,9 +1,9 @@
 const express = require('express');
 const path = require('path');
-const consolidate = require('consolidate'); // для работы с шаблонизаторами
+const consolidate = require('consolidate');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:32768/insta', { // /dbName
+mongoose.connect('mongodb://localhost:32768/todo', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
